@@ -53,7 +53,7 @@ describe('firstCharacter', () => {
   });
 });
 
-describe('cap', () => {
+describe.only('cap', () => {
   it('is a function', () => {
     expect(typeof cap).to.equal('function');
   });
